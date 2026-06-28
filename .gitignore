@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+data_cache/
+analysis/results/prices.csv
+.DS_Store

@@ -1,0 +1,215 @@
+NASA used it to navigate to the moon. Quant funds use it to navigate markets. Here is exactly how it works and how to build it.
+
+The problem was simple to state and hard to solve. You are tracking something that moves a spacecraft, a signal, a hidden state in a dynamic system. Your measurements of that thing are noisy. Every observation contains random error. How do you extract the true state from a stream of noisy measurements, in real time, using every new data point as it arrives?
+
+NASA read the paper and immediately put it to work. The Kalman filter navigated the Apollo missions to the moon. It processed noisy radar readings, estimated the spacecraft's true position and velocity, and updated those estimates continuously as new sensor data arrived. No batch reprocessing. No historical lookback windows. Pure recursive updating every new observation made the estimate more precise.
+
+Markets have exactly the same problem.
+
+The true hedge ratio between two assets is hidden. The genuine trend beneath noisy price data is hidden. The relationship between two cointegrated assets evolves slowly over time and cannot be directly measured. What you observe is the noisy market price at each moment. The Kalman filter is the mathematically optimal tool for estimating hidden states from noisy observations and it updates continuously as new data arrives.
+
+https://x.com/RuujSs/status/2066545926467174765?s=20
+
+If you have not read the pairs trading article yet then you should read it,  this one builds directly on top of it. The Kalman filter is what takes that framework from good to production grade. I would suggest reading it first to understand pairs trading as well.
+
+The Portfolio Optimization Book, published by Cambridge University Press in 2025, reaches one explicit conclusion after testing multiple estimation approaches on real pairs data: "Kalman filtering is a must in pairs trading." Rolling OLS produces hedge ratio estimates varying between 0.6 and 1.2 on the same pairs where the Kalman filter stays stable between 0.55 and 0.65. That difference is not cosmetic. It determines whether the spread is stationary and tradeable or noisy and unreliable.
+
+NOTE: This article builds the complete framework. What the filter is actually doing, the full mathematics, and three concrete production-grade applications. Read it in order every Chapter connects to the next.
+
+ 
+
+Chapter 1: The Idea Before Any Equations
+
+Before the equations, the idea. Because the idea is more important than the equations and most explanations get it backwards.
+
+You want to know the true state of a system. But you cannot measure it directly. You can only observe measurements that are related to the true state and those measurements contain noise.
+
+At every moment you have two sources of information:
+
+Your model: what you predict the state should be based on how the system evolves. This prediction has uncertainty because the system changes in ways you cannot perfectly anticipate.
+
+Your measurement: what your sensor tells you the state is right now. This also has uncertainty because measurements are noisy.
+
+The question is: given both of these imperfect sources, what is the best possible estimate of the true state?
+
+The Kalman filter answers this question optimally. It combines the prediction and the measurement, weighting each one by its relative reliability. When the measurement is noisy (high measurement variance R), trust the model prediction more. When the model is uncertain (high process variance Q), trust the new measurement more. The weight assigned to the new measurement the Kalman gain K updates automatically at every step based on the current uncertainty levels.
+
+This is not an approximation. For linear systems with Gaussian noise it is the provably optimal estimator. No other method extracts more information from the available data.
+
+In trading, the hidden states you care about are things like: the true hedge ratio between two assets right now, the genuine trend beneath noisy daily prices, the time-varying relationship between two correlated instruments. The measurements are the market prices you observe.
+
+Two steps run at every time point:
+
+Predict: Project the current state estimate forward one step using the model. Uncertainty increases because the state may have changed since the last observation.
+
+Update: Incorporate the new measurement to correct the prediction. Uncertainty decreases because you have gained information.
+
+ 
+
+Predict. Update. Predict. Update. That cycle is the entire algorithm. It runs recursively, in real time, requiring no historical batch processing.
+
+ 
+
+Chapter 2: The Mathematics Built From Scratch
+
+The filter operates within a state space model. Two equations define the complete system.
+
+State transition equation:
+
+x_t = F × x_{t-1} + w_t
+
+The hidden state x_t evolves from the previous state through a transition matrix F. The term w_t is process noise random changes in the true state that your model cannot anticipate. Process noise has covariance matrix Q.
+
+Observation equation:
+
+y_t = H_t × x_t + v_t
+
+The observable measurement y_t relates to the hidden state through an observation matrix H_t. The term v_t is measurement noise, the difference between the true state and what you observe. Measurement noise has variance R.
+
+For pairs trading, these abstract quantities map directly to concrete variables:
+
+y_t : the observed price of asset P₁ at time t.
+x_t : the hidden state vector [β_t, μ_t]: the hedge ratio and intercept you are trying to estimate.
+H_t : the row vector [P₂_t, 1]: the price of the second asset and a constant term.
+F = I : identity matrix, because the hedge ratio follows a random walk.
+Q : process noise covariance, controls how fast β is allowed to change.
+R : measurement noise variance, controls how much you trust each price observation.
+
+The seven filter equations, executed at every time step:
+
+Prediction step:
+
+x_{t|t-1} = F × x_{t-1|t-1}          (state prediction)
+P_{t|t-1} = F × P_{t-1|t-1} × F' + Q  (uncertainty prediction)
+
+Innovation (what the new measurement tells you):
+
+e_t = y_t − H_t × x_{t|t-1}          (forecast error)
+S_t = H_t × P_{t|t-1} × H_t' + R     (innovation variance)
+
+Kalman gain (optimal weight for the new measurement):
+
+K_t = P_{t|t-1} × H_t' / S_t
+
+Update step:
+
+x_{t|t} = x_{t|t-1} + K_t × e_t      (state update)
+P_{t|t} = (I − K_t × H_t) × P_{t|t-1} (uncertainty update)
+
+Three outputs matter directly for trading:
+
+x_{t|t} : the updated hedge ratio and intercept estimate. This is your best current estimate of the true relationship between the two assets.
+
+e_t : the forecast error. How far P₁ actually was from where the filter predicted it would be given the current hedge ratio estimate. This is your spread signal.
+
+S_t : the innovation variance. Normalizing e_t by √S_t gives a z-score that automatically adjusts for the current uncertainty in the hedge ratio. When the filter is uncertain, the threshold widens. When it is confident, the threshold tightens.
+
+The Kalman gain K_t is the mechanism worth understanding intuitively. When S_t is large the innovation is highly variable, measurements are unreliable relative to the model K_t is small and the filter updates conservatively, trusting the prior state estimate. When S_t is small measurements are precise relative to model uncertainty K_t is large and the filter updates aggressively toward the new observation. This automatic balancing is what makes the filter optimal.
+
+ 
+
+Chapter 3: Dynamic Hedge Ratio The Core Application
+
+The first and most important application in trading is dynamic hedge ratio estimation for pairs strategies.
+
+In the pairs trading article I published previously, rolling OLS was the baseline approach with its documented shortcomings: the lookback window is an arbitrary free parameter, estimates jump discontinuously when the window rolls, and the hedge ratio can swing by 50% or more without the underlying relationship actually changing. The Kalman filter solves all three simultaneously. No lookback window. No discontinuous transitions. Uncertainty adapts continuously.
+
+ 
+
+Setting delta correctly
+
+Delta controls the single most important behavior of the filter in this context: how fast the hedge ratio is allowed to evolve. The process noise covariance Q = δ/(1-δ) × I sets this directly.
+
+For equity pairs (KO-PEP, EWA-EWC) where the fundamental relationship is stable but slowly evolving, delta in the range 1e-5 to 1e-4 works well the filter updates the hedge ratio slowly and smoothly. For crypto pairs where relationships shift faster, delta around 1e-3 to 1e-2 is more appropriate. The key insight: unlike the rolling OLS lookback window which has no direct interpretation, delta has a physical meaning it is your prior belief about the daily variance in the true hedge ratio.
+
+Using filter outputs as trading signals
+
+The forecast error e_t and innovation variance S_t are not just diagnostics. They are the signal. Normalizing by √S_t gives a z-score equivalent:
+
+ 
+
+The advantage over a simple rolling z-score: the normalization is adaptive. When P is large the filter is uncertain about the current hedge ratio S_t is large and the z-score threshold effectively widens. You need a larger actual deviation to generate a signal when uncertainty is high. When P is small the filter is confident S_t is small and the z-score is more sensitive. The filter's own uncertainty automatically calibrates signal sensitivity.
+
+Generating and backtesting trades
+
+ 
+
+ 
+
+Note on the entry threshold: when using the Kalman z-score directly, the threshold is naturally lower than the typical z = 2.0 used with rolling OLS. An entry at z = 1.0 is common in production Kalman-based pairs implementations because the normalization by √S_t already accounts for uncertainty the effective threshold in raw spread units is higher when uncertainty is elevated. This is documented in the QuantConnect production implementation powering 300+ hedge funds.
+
+ 
+
+Chapter 4: Price Trend Filtering Separating Signal From Noise
+
+The second application is trend filtering. Every price series is a mixture of genuine trend information and short-term noise. Moving averages attempt to separate them by weighting recent observations. The Kalman filter does something fundamentally different it explicitly models the noise and estimates the true underlying state.
+
+Set up the state as two components: the current price level and its velocity (rate of change). The transition model says the next level equals the current level plus current velocity. This is the constant velocity model from physics.
+
+ 
+
+ 
+
+The velocity component is directly tradeable. Positive velocity means the filter believes price is trending upward. Negative velocity means downward. Zero crossings of velocity from negative to positive or vice versa represent the filter's assessment of a trend reversal in the smoothed price series.
+
+A 2025 production system analysis documented velocity crossings as one of eight inputs to an ML ensemble signal, contributing alongside momentum, volatility, and regime indicators rather than being used as a standalone trigger. That is the right way to use it. Kalman velocity adds genuine information it separates the rate of change of the true trend from noise but like all signals it works best as a component in a broader framework rather than a standalone rule.
+
+The Adaptive Version
+
+The fixed-parameter filter works well in stable market conditions. In volatile markets it becomes too smooth unable to track rapid genuine price moves. In quiet markets it can be too reactive tracking noise rather than signal.
+
+The solution: adapt Q dynamically based on realized volatility. When recent volatility is high, increase Q to make the filter more responsive. When volatility is low, decrease Q for smoother tracking.
+
+ 
+
+A May 2025 analysis at PyQuantLab confirmed: the adaptive version outperforms the fixed-parameter filter across different market conditions specifically because it adjusts responsiveness to the current regime. In volatile periods the filter tracks genuine rapid price movements without lag. In calm periods it smooths noise without sacrificing trend detection. This is the version worth building into production systems.
+
+ 
+
+Chapter 5: The Complete System Connecting All Layers
+
+Neither application above works in isolation in a real trading system. The Kalman filter is one layer. It feeds into signal generation, which feeds into sizing, which feeds into a monitoring system that tracks whether the filter's own uncertainty is elevated.
+
+Here is how I connect these layers in practice.
+
+Signal generation from Kalman outputs
+
+The z-score of the forecast error, normalized by innovation variance, is the primary entry signal. But add one additional gate: filter confidence. When the covariance matrix trace is elevated meaning the filter is uncertain about the current hedge ratio reduce or pause new position opening regardless of the signal.
+
+ 
+
+Position sizing scaled to confidence
+
+Size proportionally to both signal strength and filter confidence. When the filter is uncertain, reduce size. When it is confident and the signal is strong, deploy more.
+
+ 
+
+Monitoring filter health
+
+Track the trace of the covariance matrix P over time. When P_trace rises persistently above its historical distribution, the filter is accumulating uncertainty about the hedge ratio. This is the Kalman-native equivalent of the rolling cointegration p-value monitor from the pairs trading article it tells you when the relationship the filter is estimating may have shifted.
+
+ 
+
+ 
+
+The Summary
+
+Rudolf Kalman built this algorithm to track spacecraft. The problem he solved extracting a hidden true state from a stream of noisy measurements, in real time, optimally turned out to be universal. Any system where you need to estimate something you cannot directly observe, using measurements that are corrupted by noise, is a Kalman filter problem.
+
+Markets are exactly that system.
+
+The hedge ratio between two assets is hidden. You observe noisy prices. The Kalman filter gives you the best possible estimate of the hedge ratio at every moment, quantifies exactly how uncertain that estimate is, and provides as a byproduct the forecast error and innovation variance that become your trading signal.
+
+Palomar's Portfolio Optimization Book (Cambridge University Press, 2025) documents this on real pairs data: rolling OLS loses tracking completely during the COVID-19 volatility shock in early 2020. The Kalman filter maintains controlled drawdown throughout the same period, adapting to the shock and recovering cleanly.
+
+The adaptive version adjusting process noise Q dynamically based on realized volatilit is confirmed outperforms the fixed-parameter version across different market regimes because the filter adapts its responsiveness to the current environment rather than assuming one set of parameters is correct for all conditions.
+
+The five Chapters of this article form a complete framework. The idea. The mathematics. The hedge ratio application. The trend filtering application. The complete connected system. Each layer builds on the previous one. Together they give you something that moving averages, rolling regressions, and fixed-window estimators cannot: an estimator that knows how uncertain it is, and adjusts everything downstream accordingly.
+
+I’m Ruuj a backend developer, researcher, and working on quant systems. DMs are open for thoughtful discussions and collaborations.
+
+Here is the question I want you to think about.
+
+In your own systematic work right now what parameters are you currently estimating with a fixed window or a static method that should actually be treated as an evolving hidden state? The Kalman filter is the right tool whenever the honest answer to that question is: the parameter changes over time and I am not tracking that change correctly.
+
+That answer comes up more often than most people expect.

@@ -1,0 +1,56 @@
+{
+  "avg_sharpe_by_method_threshold_z_5bps": {
+    "kalman_basic": 0.208,
+    "kalman_momentum": -0.169,
+    "rolling_ols": 0.226
+  },
+  "median_sharpe_by_method_threshold_z_5bps": {
+    "kalman_basic": 0.203,
+    "kalman_momentum": -0.12,
+    "rolling_ols": 0.303
+  },
+  "avg_sharpe_by_method_proportional_5bps": {
+    "kalman_basic": 0.066,
+    "kalman_momentum": -0.352,
+    "rolling_ols": -0.012
+  },
+  "median_sharpe_by_method_proportional_5bps": {
+    "kalman_basic": 0.082,
+    "kalman_momentum": -0.231,
+    "rolling_ols": 0.056
+  },
+  "EWA-EWC": {
+    "no_cost": {
+      "kalman_basic": 0.401,
+      "kalman_momentum": 0.028,
+      "rolling_ols": 0.518
+    },
+    "tc_10bps": {
+      "kalman_basic": 0.194,
+      "kalman_momentum": -0.391,
+      "rolling_ols": 0.317
+    },
+    "tc_5bps": {
+      "kalman_basic": 0.297,
+      "kalman_momentum": -0.182,
+      "rolling_ols": 0.417
+    }
+  },
+  "KO-PEP": {
+    "no_cost": {
+      "kalman_basic": 0.324,
+      "kalman_momentum": 0.263,
+      "rolling_ols": 0.472
+    },
+    "tc_10bps": {
+      "kalman_basic": 0.212,
+      "kalman_momentum": -0.007,
+      "rolling_ols": 0.348
+    },
+    "tc_5bps": {
+      "kalman_basic": 0.268,
+      "kalman_momentum": 0.128,
+      "rolling_ols": 0.41
+    }
+  }
+}

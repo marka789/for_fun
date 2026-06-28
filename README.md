@@ -14,7 +14,17 @@ Analysis workspace inspired by [Laloux et al. (1999)](https://arxiv.org/abs/cond
 - Classifies eigenvalues as **signal** (λ > λ₊) vs **noise** (within the MP bulk)
 - Produces scree plots, eigenvalue spectrum plots, and top-PC loading charts
 
-## Quick start
+## Run without local setup
+
+### Option A — Google Colab (recommended)
+
+Open [`notebooks/covariance_pca_rmt_colab.ipynb`](notebooks/covariance_pca_rmt_colab.ipynb) in Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marka789/for_fun/blob/cursor/sp500-pca-rmt-analysis-d3bf/notebooks/covariance_pca_rmt_colab.ipynb)
+
+Click **Runtime → Run all**. No install needed — the notebook installs dependencies and clones this repo automatically (~2–4 min).
+
+### Option B — Local
 
 ```bash
 pip install -r requirements.txt

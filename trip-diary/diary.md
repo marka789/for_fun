@@ -4,6 +4,17 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## Fri 4–Sat 5 Sep — China Eastern (HK → Shanghai → Gatwick)
+
+**Airline:** China Eastern. MU506 HKG–PVG T1, then MU201 PVG–LGW. Bags through-checked, same terminal.
+
+### What happened
+- Food on the plane was terrific.
+- Shanghai transfer was smooth (T1 → T1, no baggage reclaim).
+- Verdict from the jump seat of memory: **China Eastern is an amazing airline.**
+
+---
+
 ## Sat 5 Sep — Gatwick to Telford
 
 **Weather:** Bright sun, no clouds, about 13–16°C. Perfect vacation weather — colder than HK in the shade.

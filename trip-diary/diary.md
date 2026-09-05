@@ -37,7 +37,7 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - **19:30** Hickory’s Smokehouse, Priorslee (taxi — not in town centre).
 
 ### Photos
-*(drop files in `photos/2026-09-05/` and note captions here)*
+- `photos/2026-09-05/airbnb-cooker-switch.jpg` — Red wall switches at the Airbnb. Looks official. It is not the boiler. It says **cooker**.
 
 ---
 

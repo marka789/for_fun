@@ -46,6 +46,15 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## London stay — locked Sat 5 Sep (from Telford)
+
+- **Cancelled:** 55 Darwin Street Airbnb (Elephant & Castle / SE17).
+- **Booked:** **Chelsea Cloisters**, Sloane Avenue, SW3.
+- Check-in **15:00**; drop bags if the Edinburgh train gets us there ~14:00. Harrods first, then Mayfair / Fortnum’s, Fallow 21:00.
+- Sat 19 Sep Gatwick: leave ~**07:00**, Sloane Square → Victoria → Gatwick (not Thameslink from Elephant & Castle).
+
+---
+
 ## Sun 6 Sep — Shrewsbury with Jason & Mia
 
 *(waiting)*

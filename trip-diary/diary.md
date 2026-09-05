@@ -31,8 +31,13 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - The St Pancras → Euston walk is short, not pretty: Euston Road, buses, cases.
 - New Street is a shopping centre with trains underneath. Follow purple rail signs for Telford Central (often via Wolverhampton / Shrewsbury).
 
+### Lunch — Wildwood, Southwater
+- Tuna avocado pâté: a nice little **blue cheese surprise**.
+- Lasagna kinda tasted like **borscht**.
+- Hard cheese: yum (Sasha).
+- Tiramisu: debating Wildwood vs hunting a better one in Telford.
+
 ### Later today (plan)
-- Airbnb, shower, light lunch (Wildwood / Southwater).
 - Afternoon: Ironbridge if energy — save Shrewsbury for Jason & Mia tomorrow.
 - **19:30** Hickory’s Smokehouse, Priorslee (taxi — not in town centre).
 

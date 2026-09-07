@@ -46,6 +46,36 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## Sat 5 Sep, evening — supermarkets, Hickory's on foot, hotpot jacket
+
+### Supermarket crawl
+- Fighting jet lag by staying out — walked the entire Telford Central area.
+- **Iceland**: frozen pre-prepped food is shockingly cheap in the UK.
+- Also hit **Aldi**, **Poundland**, then further up to **Sainsbury's** — did most of the real shop there.
+- A round at **M&S** too.
+- Haul: fruit, frozen food, salmon, steak (so much cheaper than HK). Genuinely excited to cook this trip.
+
+### Walking to Hickory's Smokehouse
+- It's far from the Airbnb — walked anyway.
+- Possibly a mistake: ended up navigating roundabouts on foot, felt a bit dangerous at points.
+- Still relaxing overall. Got colder as night fell. Made it there safe.
+
+### Hickory's Smokehouse, Priorslee
+- Vibe: warm, cabin-like.
+- Ordered the **two-person platter** — way too much food.
+- Free popcorn as a starter snack — demolished it.
+- **Brisket**: really tender, Sasha's favourite.
+- **Chicken wings**: honey glazed, Mark's favourite — tasted like the wings from Loblaws in Toronto.
+- Uber back — late, cold, sleepy.
+
+### Laundry chaos
+- Ran the washing machine (empty cycle) before the first real load.
+- Portable dryer's wire was too short to reach a good spot.
+- Solution: Mark's belt looped through the door hook as an extra hanging point, to dry Sasha's jacket — it smelled like hotpot.
+- Chilled, tidied up, bed.
+
+---
+
 ## London stay — locked Sat 5 Sep (from Telford)
 
 - **Cancelled:** 55 Darwin Street Airbnb (Elephant & Castle / SE17).

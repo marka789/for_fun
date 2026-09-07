@@ -151,4 +151,10 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Made about **2.5 portions**, only ate 1 — the rest is in the fridge.
 - Evening wound down quietly: a bit of work, mostly scrolling Instagram, then lights out.
 
+### Walking back to meet Sasha
+- Went out to meet Sasha halfway when the conference day wrapped up.
+- A bit scary en route: **5 masked dirt bikes** went vrooming past super fast.
+- Made it back safely.
+- On the path, accidentally split a group of 3 people walking — said sorry and kept going. A few metres on, they turned around and called out — hearts already pounding from the dirt bikes, braced for them to be annoyed — but it was actually: **"Excuse me! You two are a beautiful couple."** Said thanks and waddled away, relieved.
+
 ---

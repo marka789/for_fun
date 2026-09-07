@@ -132,7 +132,9 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Tried to get a taxi down to Ironbridge on the extended lunch break — couldn't get one to show.
 - Worried that even if one turned up, timing back for Sasha's **~17:00** conference registration would be too tight.
 - Pivoted to walking **Telford Town Park** instead (no taxi needed, right by the venue).
-- Highlights: one of the big industrial-era chimneys near Telford, two really cute bunnies, and some squirrels.
+- Headed into the park first, then remembered the coffee promise — doubled back to the mall for **Coffee #1**. Coffee was fine, a bit weak, but did the job for Sasha's craving. Lemon drizzle cake on the side: a touch sweet, still good.
+- Back into the park properly after that, onto the **Heritage Trail** — a genuinely nice, peaceful walk.
+- Highlights: one of the big industrial-era chimneys near Telford (name forgotten — to look up), two really cute bunnies, and some squirrels.
 
 ### Dinner
 - Started cooking around **18:30** (11:30 in "Mark's night-shift body clock" time).

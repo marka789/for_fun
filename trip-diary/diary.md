@@ -119,3 +119,24 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Sat around waiting for the wash to finish, then an early night — bed at **21:00**, since Mark had to be up at **03:00** to start work.
 
 ---
+
+## Mon 7 Sep — WFH night shift + Telford Town Park
+
+### Overnight/early morning
+- Mark up at **02:50** to start work — a slow, pretty peaceful morning shift.
+- Sasha woke around **06:00**, came out for hugs, tried to go back to sleep — didn't quite work.
+- Back up properly at **07:00** for breakfast together, then did her own thing beside Mark while he kept working.
+- Verdict on working nights: peaceful, but tiring — logging this at 19:30 and absolutely exhausted.
+
+### Ironbridge, take two — called off
+- Tried to get a taxi down to Ironbridge on the extended lunch break — couldn't get one to show.
+- Worried that even if one turned up, timing back for Sasha's **~17:00** conference registration would be too tight.
+- Pivoted to walking **Telford Town Park** instead (no taxi needed, right by the venue).
+- Highlights: one of the big industrial-era chimneys near Telford, two really cute bunnies, and some squirrels.
+
+### Dinner
+- Started cooking around **18:30** (11:30 in "Mark's night-shift body clock" time).
+- Salmon, spinach, frozen pasta, the rest of the broccoli and cherry tomatoes. Good food.
+- A bit more work afterward to wrap things up.
+
+---

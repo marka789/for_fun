@@ -108,5 +108,14 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Walked around, popping in and out of cute little stores.
 - Tea break at **Ginger and Co**, a cute neighbourhood coffee shop/cafe — just chatted, very relaxing. Weather was really good.
 - Another grocery run at **Sainsbury's** — just with Jason this time, Mia stayed home with Maple.
+- Jason and Mia drove us back — got to the Airbnb around **16:15**.
+
+### Evening — cooking in
+- Quick dash to **Iceland** for more frozen food, since we didn't have enough for a few more meals. Started raining right as we went — made it in fast enough to only get a bit wet.
+- Headed home a different, more direct route — similar to the one from the bus stop back to the Airbnb.
+- Cooked: steak, broccolini, cherry tomatoes, leftover BBQ from the night before, plus frozen pasta from Iceland. Very yummy — what a vibe. Gobbled it down.
+- Washing up: the kitchen tap is a bit weird, so Sasha held her plastic coffee cup to splash water over the dishes while Mark soaped up. All clean.
+- Showered, then set up the new extension cord to dry clothes in the bedroom — much better than the belt-on-the-door-hook trick.
+- Sat around waiting for the wash to finish, then an early night — bed at **21:00**, since Mark had to be up at **03:00** to start work.
 
 ---

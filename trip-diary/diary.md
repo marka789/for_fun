@@ -157,4 +157,8 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Made it back safely.
 - On the path, accidentally split a group of 3 people walking — said sorry and kept going. A few metres on, they turned around and called out — hearts already pounding from the dirt bikes, braced for them to be annoyed — but it was actually: **"Excuse me! You two are a beautiful couple."** Said thanks and waddled away, relieved.
 
+### Signing off
+- Back home, showered. Sasha stood inside the **portable dryer** to dry her hair — resourceful.
+- **21:07** — exhausted, signing off for the night. Another **02:30** start tomorrow.
+
 ---

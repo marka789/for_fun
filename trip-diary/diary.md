@@ -87,6 +87,26 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ## Sun 6 Sep — Shrewsbury with Jason & Mia
 
-*(waiting)*
+### Morning
+- Up around **08:30** — sleepy and groggy, woke a few times overnight from rain and jet lag.
+- Breakfast: Quaker Oats (surprisingly good), plus washed grapes and blueberries.
+- Jason and Mia picked us up in their **Mini Cooper**.
+- ~30–40 min drive to **Shrewsbury**, a really nice, cute town in Shropshire — Charles Darwin used to live here.
+
+### Riverside walk
+- Grabbed a coffee (still have the plastic cup).
+- Walked along the riverside — a marathon was on, so it was busy, but relaxing all the same.
+- With **Maple** (their 5yo cockapoo) along, Jason and Mia were like a cute old British couple doing their own thing — we just trailed behind, never awkward.
+- They took us to **The Dingle**, the botanical garden in Shrewsbury (started 1875) — really nice and peaceful. Maple wanted to jump in the pond with the ducks.
+
+### Lunch
+- Bagels, subs, and toasties from a random store.
+- **Smoked salmon bagel**: so good.
+- **Roast beef sub**: super soft sourdough baguette. Bagel itself: soft but chewy.
+
+### Afternoon
+- Walked around, popping in and out of cute little stores.
+- Tea break at **Ginger and Co**, a cute neighbourhood coffee shop/cafe — just chatted, very relaxing. Weather was really good.
+- Another grocery run at **Sainsbury's** — just with Jason this time, Mia stayed home with Maple.
 
 ---

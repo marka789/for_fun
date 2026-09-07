@@ -136,9 +136,19 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Back into the park properly after that, onto the **Heritage Trail** — a genuinely nice, peaceful walk.
 - Highlights: one of the big industrial-era chimneys near Telford (name forgotten — to look up), two really cute bunnies, and some squirrels.
 
-### Dinner
+### Dinner together, then more work
 - Started cooking around **18:30** (11:30 in "Mark's night-shift body clock" time).
 - Salmon, spinach, frozen pasta, the rest of the broccoli and cherry tomatoes. Good food.
 - A bit more work afterward to wrap things up.
+
+### Aldi run, then off to registration
+- Grocery run at **Aldi**.
+- Back home, Sasha got really, really nervous about the conference — despite having been to plenty before and even presented at some, this time she's "just" a participant, and it's a buffet crowd thing.
+- Mark walked her over to the conference hall.
+
+### Solo dinner while Sasha's at the conference
+- Cooked: **meatballs, asparagus, Mediterranean salad mix, rice**, plus the leftover BBQ from Saturday.
+- Made about **2.5 portions**, only ate 1 — the rest is in the fridge.
+- Evening wound down quietly: a bit of work, mostly scrolling Instagram, then lights out.
 
 ---

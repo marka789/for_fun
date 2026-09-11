@@ -195,6 +195,10 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Sasha didn't want to go out to the conference again today — fair, third day running.
 - She headed back out anyway; Mark kept working.
 
+### Binance interview
+- **~10:30** — interview with Binance. Went really well. Interviewer was **Dennis**, from CUHK — had a very nice chat with him.
+- **Melody** from Binance HR also called in the afternoon. Overall, looking quite positive.
+
 ### Lunch — Willow, take one
 - Met at **Willow** for lunch — really, really good.
 - **Garlic pizza** and a **chicken kebab flatbread** — both super delicious.
@@ -206,5 +210,14 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ### Afternoon
 - Back together after that, then straight into **packing** — leaving Telford Thursday morning.
+
+### Evening — Sasha's conference dinner
+- Continued packing and working a bit here and there.
+- Sasha really didn't want to go to the event's proper dinner tonight — reluctant, sad, buried in her own work. Mark basically had to kick her out the door.
+- Mark went to **Asda**: forgot the recycling bag Sasha specifically asked about, ended up buying a plastic bag anyway.
+- Haul: **pomegranate seeds, chips**, and the **GU pudding** — the lemon cheesecake one this time, after loving the Victoria sponge GU pudding on Tuesday night and again Wednesday afternoon. Lemon one: also super good.
+- Came home and ate through basically all the leftovers — about **4 portions**.
+- Sasha's dinner at the event: **duck meatballs with a cashew hoisin sauce salad** starter, then **potato mash/gratin, chicken breast, bean sprouts and carrots** for the main, and **raspberry cheesecake** for dessert — sounded properly good.
+- She said she'd be leaving around **22:00**; Mark went out to meet her.
 
 ---

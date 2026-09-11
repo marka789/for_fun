@@ -220,4 +220,24 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Sasha's dinner at the event: **duck meatballs with a cashew hoisin sauce salad** starter, then **potato mash/gratin, chicken breast, bean sprouts and carrots** for the main, and **raspberry cheesecake** for dessert — sounded properly good.
 - She said she'd be leaving around **22:00**; Mark went out to meet her.
 
+### Late night — finishing up
+- Finished packing and got the last of the laundry done, since check-out was **10:00** the next morning.
+- Bed around **midnight**. Didn't get to wash Sasha's hair — too late by then.
+
+---
+
+## Thu 10 Sep — Leaving Telford, hauling luggage to Jamaica Coffee Blue
+
+### Morning
+- Up around **07:00** to shower, dry the towels, and pack everything away.
+- Tried to eat through the fridge before leaving — the lemon cheesecake GU pudding for breakfast, plus some **granola**, which was really good.
+- Mark headed out around **09:00**, finished the last of the packing, then checked out of the Airbnb.
+
+### Telford Airbnb — final verdict
+- Overall a pretty pleasant stay. A couple of insects/bugs turned up in the toilet at points, which made it into the review for the host — but otherwise genuinely nice.
+
+### Hauling luggage to Jamaica Coffee Blue
+- Dragged all the luggage — broken wheel and all — back up to **Jamaica Coffee Blue**, sweating by the time he got there. The rocky path really doesn't get along with a bad suitcase wheel.
+- Made it, though. Plan: hang out/work there while Sasha wraps up her final conference session, then head to Birkenhead together.
+
 ---

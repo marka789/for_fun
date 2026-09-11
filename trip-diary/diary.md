@@ -162,3 +162,27 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - **21:07** — exhausted, signing off for the night. Another **02:30** start tomorrow.
 
 ---
+
+## Tue 8 Sep — Jamaica Coffee Blue, tray bake, and a Wenlock plan that didn't happen
+
+### Early morning
+- Up at **02:30** for work, expecting to present at 3 — then the meeting got shifted, so ended up procrastinating and having breakfast instead.
+- Properly started work around **04:00**. Sasha up at **07:00**.
+
+### Breakfast — Jamaica Coffee Blue
+- Mark: a big breakfast.
+- Sasha: a **tortilla stack** — chicken, bell peppers, cheese, béchamel, tortilla, ham, layers, topped with crispy cheese. Really, really good.
+- Both dishes: super yummy.
+
+### Midday
+- Sasha off to the conference, Mark back to work.
+- Sasha back in the afternoon for lunch — **tray bake** at home, everything baked together, easy and decent.
+- Back out to the conference afterward; Mark kept working.
+
+### Evening — Wenlock plan, take two, called off
+- Sasha had the night off, so the plan was dinner at **The Huntsman of Little Wenlock** — but no taxi again.
+- Pivoted: walked to **Sainsbury's** for groceries instead, freezing on the way, grabbed a **cookie** en route (a "Pacific cookie").
+- Home to cook: **1-inch ribeye steak**, pasta with spinach, asparagus, and sun-dried tomatoes. Delicious — kitchen got smelly from the steak afterward, in a good way. Cooking was genuinely fun.
+- Washed some clothes, then bed.
+
+---

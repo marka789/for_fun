@@ -186,3 +186,25 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Washed some clothes, then bed.
 
 ---
+
+## Wed 9 Sep — Airwallex interview, Willow lunch, and a cold-waiting mishap
+
+### Morning
+- Mark up at a genuinely normal **06:00** — had an interview with **Airwallex**. Ate beforehand, so no shared breakfast.
+- Sasha up at 07:00, but didn't come out until **07:45** (after the interview wrapped) — she had breakfast.
+- Sasha didn't want to go out to the conference again today — fair, third day running.
+- She headed back out anyway; Mark kept working.
+
+### Lunch — Willow, take one
+- Met at **Willow** for lunch — really, really good.
+- **Garlic pizza** and a **chicken kebab flatbread** — both super delicious.
+- Good enough that the plan immediately became: go back to Willow again on Thursday.
+
+### The cold-waiting mishap
+- Mark suddenly had a lot of work pile up and forgot to text Sasha an update — she ended up waiting outside in the cold with no word.
+- She got mad. Rightfully so.
+
+### Afternoon
+- Back together after that, then straight into **packing** — leaving Telford Thursday morning.
+
+---

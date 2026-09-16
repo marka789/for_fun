@@ -241,3 +241,71 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Made it, though. Plan: hang out/work there while Sasha wraps up her final conference session, then head to Birkenhead together.
 
 ---
+
+## Wed 16 Sep — Rabbies Highland tour (Loch Ness)
+
+*(Earlier Edinburgh days still to fill in.)*
+
+### Morning
+- Up at **06:20**, out by **07:20** for the booked Rabbies day tour.
+- Hotel breakfast: pancakes and a smoked salmon bagel — ate a lot, having read there wouldn't be food on the tour.
+- Walked out into freezing morning air. Something like sunrise over **Queen Street** — not the actual sunrise, but beautiful.
+- 20-minute walk to the bus station.
+
+### The bus
+- Driver: **Louise**, a lovely, friendly, talkative South African — folklore, history, and her own stories all day.
+- Behind and in front: two middle-aged Chinese couples. The ones behind were a bit inconsiderate — loud, and eating smelly food.
+
+### Out of Edinburgh
+- Passed a beautiful school on the way out — fees around **£20–30k/year**.
+- Crossed one of the **three Forth bridges** (forgot which) — the three spans from three different centuries.
+- Then the countryside: sheep, cows, Louise still talking. Really nice.
+
+### First stop — toilets, jam, a Highland coo
+- Toilet-break stop. Bought some jams.
+- Fed a **Highland coo**. Tongue: huge, wet, sticky, warm — gobbled the snacks right out of the hand.
+- Washed hands with soap **four times** afterward. The coos were very cute.
+
+### Into the Highlands
+- Quick drop at the **Welcome to the Highlands** sign — photos.
+- Slept a lot on the bus; scenery most of the way.
+
+### Loch Ness
+- Main stop of the day. Took the **Loch Ness cruise** — so zen.
+- Sat **front left**, which meant a lot of water to look at, and quite chilly.
+- The town is all about the monster. Learned it hasn't been seen in **1,500 years**, but people (even government funding) still keep looking.
+- After the cruise, back on the bus: Louise handed out **whisky and teacakes**. Whisky is not their cup of tea; teacakes were super sweet. Too much sugar in the day already.
+
+### The way back — a different path
+- Stopped at three mountains called **Faith, Hope and Charity** — the view was breathtaking.
+- *Loch* = lake, and it has a *lokhhh* sound.
+- More scenery, more lochs.
+- Got off the bus to drink **fresh stream water** — tasted somehow boiled, not too minerally, a tad sweet.
+- Snacks on board: **4 chocolate chip cookies, 2 muffins, 1 bread, a protein bar**.
+- Brief stops, more Scottish history and folklore. Some overlap with Kieran's castle tour the day before — all well.
+
+### Weather
+- Lucky: started sunny, clear skies, white clouds; clouded over later but **never really rained**.
+- Got the Highlands in different lights. Relaxing and nice.
+
+### Last stop before Edinburgh
+- Cheeseburger, a few souvenirs.
+- **Keychains**, including one for **Ginger's birthday** — the little cat who passed a day before his birthday this year; it had been **7 weeks last Sunday**.
+- Also bought some whisky.
+
+### Back in Edinburgh
+- Wandered **Queen Street** and **George Street**, then back to the hotel.
+- Reheated dinner: **M&S fridge meals** bought yesterday, knowing the tour would get back late — mushroom risotto, tomato basil pasta with chicken, plus blueberries and tangerine. Good food.
+
+### Evening
+- Showered. Call with **Melody from Binance HR**.
+- Didn't get the job — notice period and non-compete. Quite sad, somewhat expected. She said they wanted to hire him and that he did really well; it came down to the notice and non-compete.
+- Early night. Another **07:00** start tomorrow — train to London.
+
+---
+
+## London notes (from Edinburgh, Wed 16 Sep)
+
+- **Fri 18 Sep dinner:** booked **Bella Italia**, Shaftesbury Avenue, as the Les Mis pre-theatre fallback. May switch to **Mele e Pere** (Brewer St) if Sasha prefers once she's up.
+
+---

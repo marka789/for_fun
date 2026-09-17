@@ -340,6 +340,40 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## Mon 14 Sep — Birkenhead to Edinburgh, a slow check-in, Contini
+
+### Morning
+- Up around **07:00–07:15** to pack and get ready.
+- Breakfast with **Sayee**. Gaga had to go to school but made sure they had the **mocha cold brew** she'd brought from Hong Kong — quite nice. Maybe try it again once they have an Aeropress.
+- Packed. Sayee very kindly drove them to **Birkenhead Park** station. Realised they might have left some clothes. Oh well.
+- Plenty of time. Very relaxed, nothing rushed.
+
+### The train
+- About **3 hours** up to Edinburgh, plus ~**30 minutes** waiting somewhere in the middle. Fine.
+- Really nice scenery. Enjoyable.
+- An old couple watched them struggle to get the two mega-chunky cases onto the rack — didn't want to move other people's bags, no space. Once they rearranged it, **the couple clapped**. Cute and wholesome.
+
+### Edinburgh, Heeton, check-in
+- In around **14:00**. Bus to the hotel.
+- Check-in was a bit weird. Asked if they could check in early (~1 hour); the lady said the room was ready but still being cleaned. Went to **Pret** — hungry — came back ~**14:50**, saw other people checking in, asked another guy. He said check-in is 3, come back **15:15–15:20**. They finally got in around **15:05**. Funny, in a mildly infuriating way.
+- Dropped stuff. Sasha took a quick nap.
+
+### Afternoon wander
+- Out walking. Sasha didn't seem to like the area at first — turns out Queen Street is probably the **safest, nicest** bit of Edinburgh already.
+- Maybe a public holiday: lots of people, pushy, loud, overwhelming.
+- A guy and a girl got into a **fight outside a bookstore**. That's where Sasha got her **five-minute diary**.
+- Back to the hotel ~**19:00** to rest. **Contini at 20:00** — spent half an hour figuring out what to order so they wouldn't look like two fools.
+
+### Dinner — Contini George Street
+- Beautiful room. Food superb. Service very good — only **three waiters**, super efficient. Could have been slightly faster; no real complaints.
+- **Cacio e pepe** with all the oil.
+- Bread: at first, *why are we paying £5 for three slices?* Then they dipped it in the olive oil — **best olive oil ever**.
+- **Bruschetta pasta** with sausage and rocket — the rocket was mild, not the usual punch-in-the-face kind.
+- **Pan-fried chicken** with Sicilian lemon rind. Together, really, really nice.
+- Straight back to the hotel after — long day ahead (the castle).
+
+---
+
 ## Wed 16 Sep — Rabbies Highland tour (Loch Ness)
 
 *(Earlier Edinburgh days still to fill in.)*

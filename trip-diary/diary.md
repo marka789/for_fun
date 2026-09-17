@@ -294,12 +294,16 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Over to Sasha's uncle's, picked him up, drove together to a **Chinese supermarket in Liverpool**. Funny mix: some things crazy expensive, others reasonably priced. Saw a bag of **bean sprouts as big as a torso**.
 - Then **Costco**. Walked around everywhere. Sasha's cousin **Kaka** pushed all three of them on a cart — really fun, running around.
 - Costco food was pretty cheap: an **18-inch pizza for £10** — only ate half, brought the rest back. Also **hot dogs** and **baked potatoes**.
+- **Aldi** after Costco, before the barbecue.
 
-### Afternoon — barbecue
-- Back to Sasha's aunt's, a bit of packing, a rest, then over to **Sasha's uncle's** for a barbecue around **17:00**.
+### Afternoon–night — barbecue
+- Back to Sasha's aunt's, a bit of packing, a rest, then over to **Sasha's uncle's** around **17:00**.
 - Funny entrance: the younger cousin was on his **Nintendo Switch**, didn't say hi to anyone. Sasha got really mad — *hello, who are you saying hello to? Why won't you look at us when you talk?* Mark and the other two cousins were laughing in the kitchen while Sasha shouted at him in the living room.
-- Uncle started cooking. A bit of work here and there, then chatting and eating. Overall very chill and enjoyable.
-- Food: **sausages, chicken wings, a huge steak**.
+- Relatively chill: chatting, looking at **old pictures**. Uncle cooking — sausages, chicken wings, a huge steak. A bit of work here and there. Enjoyable.
+- Highlight: **roasting marshmallows** on the barbecue in the backyard. Funny because Sasha's uncle was trying to barbecue some **bread** — whenever he moved the bread away, everyone's marshmallows went for his space. The bread was really big, and there wasn't much fire, but it was fun.
+- **Gaga's** marshmallow went completely black. She said that was intentional. **Heidi and Sasha** were very patient — really brown, really big marshmallows that looked yummy.
+- Two dogs: **Afe** and **Fok** — one big, one very pretty. Afe looks like **Oyo**, really cute. They were fighting too.
+- Left around **23:00** — about **six hours** of barbecue.
 
 ---
 

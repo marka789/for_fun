@@ -248,6 +248,44 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## Fri 11 Sep — Chester, Pret VAT, Burger King by the water
+
+### Morning
+- Meant to get up early, slept in instead — up around **08:30–09:00**.
+- Breakfast with Sasha's aunt. **Cheese bread** was really, really good.
+- Sat around a bit, then out toward Chester.
+
+### Birkenhead → Chester
+- Bus to **Birkenhead Central**, then train all the way to Chester.
+- Realised they could have gone from **Birkenhead Park** instead — saved that for the way back.
+
+### Chester
+- Walked from the station into the centre. **Eastgate Clock** — quite nice. Old buildings, properly historical.
+- Didn't feel very safe walking around; weather was gloomy. That's okay.
+- Loop through town, into the **cathedral** — really nice (the jaw-on-the-floor cathedral might actually have been Liverpool; Chester's was still quite nice). Sasha kept dropping her jaw anyway, which was kind of funny.
+- Bought some chocolates.
+- **Pret** for two sandwiches. Ate in — **20% extra surcharge** for eating in (VAT). Sasha was sad the whole time about how expensive it was. Food was good.
+
+### Back to Birkenhead
+- Needed to be back around **15:00–15:30** as promised to Sasha's aunt.
+- Tried to change the ticket from **Birkenhead Central** to **Birkenhead Park**. The clerk was very slow and confused: treated it like they'd used the return in the wrong order, asked where the outbound was, called it "really weird," then said it wasn't a problem. Didn't have to pay extra — same price. On the actual train into Birkenhead Park they didn't even need to use the new ticket.
+
+### Evening — Burger King, seaside, Morrisons, M&S
+- **Gaga** got home from school.
+- **Burger King** on the Birkenhead seaside, by **Morrisons**. Originally sat at a four and a two; five people, a bit awkward — Heidi ended up in the little corner (they reckon she's very skinny, unlike the rest).
+- Shared **3 burgers and 20 nuggets**. Very happy.
+- Sasha's uncle and the other side of the family were coming. Funny: Sasha's aunt and two cousins kept looking out to see if they'd arrived. Gaga kept leaning toward Sasha's aunt so she wouldn't have to sit close to the other two cousins.
+- After Burger King, a walk with the cousins along the seaside — peaceful, kind of windy. The younger boy cousin: just very weird. Oh well.
+- Met Sasha's aunt and uncle in **Morrisons** for a bit of shopping.
+- **Oreo ice cream** in the car, watching the sunset. Really happy.
+- Then **M&S** for a bit more food, headed back because it was getting late. Good thing they weren't starving after Burger King.
+
+### Dinner in
+- Watched **Toy Story 5** (?) while eating.
+- **Seafood pasta with cheese**, plus **salmon and purple broccolini**.
+
+---
+
 ## Wed 16 Sep — Rabbies Highland tour (Loch Ness)
 
 *(Earlier Edinburgh days still to fill in.)*

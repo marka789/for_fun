@@ -302,7 +302,7 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Relatively chill: chatting, looking at **old pictures**. Uncle cooking — sausages, chicken wings, a huge steak. A bit of work here and there. Enjoyable.
 - Highlight: **roasting marshmallows** on the barbecue in the backyard. Funny because Sasha's uncle was trying to barbecue some **bread** — whenever he moved the bread away, everyone's marshmallows went for his space. The bread was really big, and there wasn't much fire, but it was fun.
 - **Gaga's** marshmallow went completely black. She said that was intentional. **Heidi and Sasha** were very patient — really brown, really big marshmallows that looked yummy.
-- Two dogs: **Afe** and **Fok** — one big, one very pretty. Afe looks like **Oyo**, really cute. They were fighting too.
+- Two dogs: **阿肥** and **阿福** — one big, one very pretty. 阿肥 looks like **Oyo**, really cute. They were fighting too.
 - Left around **23:00** — about **six hours** of barbecue.
 
 ---

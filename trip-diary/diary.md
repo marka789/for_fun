@@ -307,6 +307,39 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## Sun 13 Sep — Liverpool ONE, the jaw-drop cathedral, Batman
+
+### Morning
+- Mark up at **07:30** to watch the **boats**, then straight back to sleep.
+- Out around **08:30–09:00**, over to Liverpool just to see the city.
+
+### Liverpool ONE
+- Modern shopping — not the old-style Telford centre. Nice.
+- **Dunkin' Donuts**: so sweet, so expensive — about **£4 for a single donut**.
+- **Greggs** sausage roll: a bit oilier than preferred, still very yummy.
+- **Auntie Anne's**: sugary churro pretzels — super delicious after brushing off like **80% of the sugar**.
+- **LEGO**: **Lando Norris** and **Oscar Piastri** helmets. Thinking of getting them back in Hong Kong.
+- In and out of shops.
+
+### Lunch, Chinatown, the cathedral
+- A sandwich from a random store — decent filling, **really dry bread**, taste was good.
+- **Chinatown** for shade — lucky, really sunny.
+- **Liverpool Cathedral**: this was the one where Sasha's jaw kept dropping. Huge, really, really nice. (They heard fifth-largest in the world / longest in the UK — fact-check: it is the **longest cathedral in the world**, and the largest in Britain.)
+
+### Coffee, home
+- Back through Liverpool ONE. **Black Sheep Coffee** — Gaga recommended it. Pretty good. Shop was a bit hot; Sasha's cramps were coming on, which wasn't great.
+- Back to Birkenhead around **16:00** — Sunday, everything closing early, and they wanted to be ready for the next day.
+
+### Evening at aunt's
+- Actually got some **work** done — first real chance in days.
+- Sasha followed her aunt making **bánh mì**; got to eat a little. Aunt had also made **multi-grain raisin bread** while they were out.
+- Chilled, then dinner while watching **The Batman** (Robert Pattinson, 2022) — very dark, very quiet, decent, about **3 hours**, finished around **midnight**.
+- Dinner: leftover **barbecue chicken wings** (really good), **pizza** because the white bread was mouldy, **asparagus**, pan **bacon on mushrooms with cheese**, and aunt's **Portuguese shrimp** with lemon, vinegar, onion, garlic — very yummy.
+- After the film, sat around chatting in the living room, like most of these Birkenhead nights — sometimes Heidi, sometimes Kaka (usually asleep on the sofa by twelve). Very relaxing.
+- Finished packing, bed.
+
+---
+
 ## Wed 16 Sep — Rabbies Highland tour (Loch Ness)
 
 *(Earlier Edinburgh days still to fill in.)*

@@ -240,6 +240,12 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 - Dragged all the luggage — broken wheel and all — back up to **Jamaica Coffee Blue**, sweating by the time he got there. The rocky path really doesn't get along with a bad suitcase wheel.
 - Made it, though. Plan: hang out/work there while Sasha wraps up her final conference session, then head to Birkenhead together.
 
+### Telford → Birkenhead
+- Last leg of the train toward Birkenhead **stopped** — someone went down on the railway.
+- Sasha's **uncle and Heidi** came to pick them up from **the old station**, then drove over to Birkenhead.
+- **Aunt** and **Gaga** were waiting. Unpacked, sat around.
+- Dinner: **roast chicken and borscht soup** — great after so many days of eating out.
+
 ---
 
 ## Wed 16 Sep — Rabbies Highland tour (Loch Ness)

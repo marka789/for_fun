@@ -286,10 +286,17 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
-## Sat 12 Sep — Aldi, packing, uncle's barbecue
+## Sat 12 Sep — laundry forever, Costco, uncle's barbecue
 
-- **Aldi** (pretty sure), then back to Sasha's aunt's.
-- A bit of packing, a rest, then over to **Sasha's uncle's** for a barbecue around **17:00**.
+### Morning
+- Up relatively early. **Washing clothes** — machine was supposed to take **53 minutes**, ended up about **1 hour 53**.
+- Breakfast: **cheese bread and ham**. Quite nice.
+- Over to Sasha's uncle's, picked him up, drove together to a **Chinese supermarket in Liverpool**. Funny mix: some things crazy expensive, others reasonably priced. Saw a bag of **bean sprouts as big as a torso**.
+- Then **Costco**. Walked around everywhere. Sasha's cousin **Kaka** pushed all three of them on a cart — really fun, running around.
+- Costco food was pretty cheap: an **18-inch pizza for £10** — only ate half, brought the rest back. Also **hot dogs** and **baked potatoes**.
+
+### Afternoon — barbecue
+- Back to Sasha's aunt's, a bit of packing, a rest, then over to **Sasha's uncle's** for a barbecue around **17:00**.
 - Funny entrance: the younger cousin was on his **Nintendo Switch**, didn't say hi to anyone. Sasha got really mad — *hello, who are you saying hello to? Why won't you look at us when you talk?* Mark and the other two cousins were laughing in the kitchen while Sasha shouted at him in the living room.
 - Uncle started cooking. A bit of work here and there, then chatting and eating. Overall very chill and enjoyable.
 - Food: **sausages, chicken wings, a huge steak**.

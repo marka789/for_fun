@@ -376,7 +376,7 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ## Wed 16 Sep — Rabbies Highland tour (Loch Ness)
 
-*(Earlier Edinburgh days still to fill in.)*
+*(Tuesday's castle day still to fill in.)*
 
 ### Morning
 - Up at **06:20**, out by **07:20** for the booked Rabbies day tour.

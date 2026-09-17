@@ -286,6 +286,16 @@ Living notes. Photos go in `photos/`. HTML keepsake: `index.html`.
 
 ---
 
+## Sat 12 Sep — Aldi, packing, uncle's barbecue
+
+- **Aldi** (pretty sure), then back to Sasha's aunt's.
+- A bit of packing, a rest, then over to **Sasha's uncle's** for a barbecue around **17:00**.
+- Funny entrance: the younger cousin was on his **Nintendo Switch**, didn't say hi to anyone. Sasha got really mad — *hello, who are you saying hello to? Why won't you look at us when you talk?* Mark and the other two cousins were laughing in the kitchen while Sasha shouted at him in the living room.
+- Uncle started cooking. A bit of work here and there, then chatting and eating. Overall very chill and enjoyable.
+- Food: **sausages, chicken wings, a huge steak**.
+
+---
+
 ## Wed 16 Sep — Rabbies Highland tour (Loch Ness)
 
 *(Earlier Edinburgh days still to fill in.)*

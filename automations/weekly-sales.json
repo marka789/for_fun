@@ -1,0 +1,9 @@
+{
+  "name": "堂單 weekly sales check",
+  "schedule": {
+    "type": "cron",
+    "cron": "0 10 * * 1",
+    "timezone": "Asia/Hong_Kong"
+  },
+  "prompt": "You are running the 堂單 weekly sales check in this repo. Run `npm run sales`. Read data/sales-report.json. If kill is true, tell the user to stop this idea and do not draft another public post. If kill is false, give the user the paste-ready post and the leadsWaiting list. Do not post it to Facebook, Instagram, or any group unless the user explicitly tells you to send that exact text."
+}

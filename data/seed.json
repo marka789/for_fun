@@ -1,0 +1,59 @@
+{
+  "tutors": [
+    {
+      "slug": "miss-chan",
+      "name": "陳老師",
+      "subject": "英文",
+      "fpsId": "51234567",
+      "phone": "90000001",
+      "plan": "demo",
+      "paidUntil": null,
+      "lessons": [
+        {
+          "id": "seed-1",
+          "date": "2026-10-01",
+          "student": "黃子晴",
+          "parent": "黃太",
+          "phone": "90000011",
+          "subject": "英文",
+          "minutes": 90,
+          "amount": 450,
+          "paid": true
+        },
+        {
+          "id": "seed-2",
+          "date": "2026-10-02",
+          "student": "張樂兒",
+          "parent": "張生",
+          "phone": "90000022",
+          "subject": "英文",
+          "minutes": 60,
+          "amount": 300,
+          "paid": false
+        },
+        {
+          "id": "seed-3",
+          "date": "2026-10-03",
+          "student": "林小明",
+          "parent": "林太",
+          "phone": "90000033",
+          "subject": "英文",
+          "minutes": 90,
+          "amount": 450,
+          "paid": false
+        },
+        {
+          "id": "seed-4",
+          "date": "2026-09-26",
+          "student": "林小明",
+          "parent": "林太",
+          "phone": "90000033",
+          "subject": "英文",
+          "minutes": 90,
+          "amount": 450,
+          "paid": true
+        }
+      ]
+    }
+  ]
+}

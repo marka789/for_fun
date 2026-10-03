@@ -1,0 +1,9 @@
+{
+  "name": "堂單 monthly reminders",
+  "schedule": {
+    "type": "cron",
+    "cron": "0 9 1 * *",
+    "timezone": "Asia/Hong_Kong"
+  },
+  "prompt": "You are running the 堂單 monthly reminder job in this repo. Run `npm run month`. Read data/outbox.json. Each item already has the WhatsApp text and the parent phone. Deliver only those messages, unchanged, to the listed numbers. Do not invent a balance, do not add a person who is not in the file, and do not message a demo tutor. If items is empty, send nothing. Reply with the reminder count and the total unpaid HKD."
+}

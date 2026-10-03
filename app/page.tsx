@@ -35,8 +35,8 @@ export default async function HomePage({
         <div className="card" id="ask">
           <p className="kicker">一年</p>
           <p className="price">HK${PRICE_HKD}</p>
-          <p className="fine">收咗錢先開你嘅頁。示範頁而家就可以俾人睇。</p>
-          <LeadForm sent={query.sent === "1"} />
+          <p className="fine">而家開頁，先用 14 日。之後一年先收 HK${PRICE_HKD}。</p>
+          <LeadForm />
         </div>
       </section>
     </main>

@@ -1,0 +1,9 @@
+{
+  "name": "堂單 morning",
+  "schedule": {
+    "type": "cron",
+    "cron": "0 9 * * *",
+    "timezone": "Asia/Hong_Kong"
+  },
+  "prompt": "You are running the 堂單 morning check in this repo. Run `npm run morning`. Read data/digest.txt. If the text is exactly 無事。, do not message the user. Otherwise tell the user only what the file says. Do not contact the tutors yourself."
+}

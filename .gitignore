@@ -7,4 +7,6 @@ data/studio.json
 data/leads.json
 data/outbox.json
 data/sales-report.json
+data/digest.json
+data/digest.txt
 data/*.tmp

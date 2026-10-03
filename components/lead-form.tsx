@@ -1,12 +1,8 @@
-import { createLead } from "@/lib/actions";
+import { openTrial } from "@/lib/actions";
 
-export function LeadForm({ sent }: { sent: boolean }) {
-  if (sent) {
-    return <p className="ok">收到。我開會用你嘅 WhatsApp 覆你，開一條家長連結。</p>;
-  }
-
+export function LeadForm() {
   return (
-    <form className="stack" action={createLead}>
+    <form className="stack" action={openTrial}>
       <label>
         老師點稱呼
         <input name="name" required maxLength={40} placeholder="陳老師" />
@@ -17,13 +13,17 @@ export function LeadForm({ sent }: { sent: boolean }) {
       </label>
       <label>
         教咩
-        <input name="subject" maxLength={40} placeholder="小五英文" />
+        <input name="subject" required maxLength={40} placeholder="小五英文" />
+      </label>
+      <label>
+        你嘅轉數快
+        <input name="fpsId" required placeholder="手機號碼或 FPS ID" />
       </label>
       <label className="honeypot">
         Company
         <input name="company" tabIndex={-1} autoComplete="off" />
       </label>
-      <button className="button button-green" type="submit">留低，等我開頁</button>
+      <button className="button button-green" type="submit">即刻開我嘅頁</button>
     </form>
   );
 }

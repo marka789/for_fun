@@ -1,10 +1,13 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import {
+  addDays,
+  buildDigest,
   buildOutbox,
   buildSalesReport,
   formatMoney,
   groupByParent,
+  isLive,
   shiftMonth,
   unpaidTotal,
   whatsappNumber,
@@ -19,6 +22,8 @@ const tutor: Tutor = {
   phone: "90000001",
   plan: "paid",
   paidUntil: "2027-10-03",
+  editKey: "secret",
+  createdAt: "2026-10-03T00:00:00.000Z",
   lessons: [
     {
       id: "1",
@@ -89,6 +94,32 @@ describe("bills", () => {
   it("moves across year boundaries", () => {
     assert.equal(shiftMonth("2026-01", -1), "2025-12");
     assert.equal(shiftMonth("2026-12", 1), "2027-01");
+  });
+
+  it("keeps a 14-day trial live and then closes it", () => {
+    const trial: Tutor = { ...tutor, plan: "trial", paidUntil: addDays("2026-10-03", 14) };
+    assert.equal(trial.paidUntil, "2026-10-17");
+    assert.equal(isLive(trial, "2026-10-17"), true);
+    assert.equal(isLive(trial, "2026-10-18"), false);
+  });
+
+  it("mentions a page opened in the last 24 hours", () => {
+    const digest = buildDigest([tutor], "https://tongdaan.example", new Date("2026-10-03T02:00:00Z"));
+    assert.equal(digest.quiet, false);
+    assert.match(digest.text, /新頁：陳老師/);
+    const beforeEight = buildDigest(
+      [{ ...tutor, createdAt: "2026-10-02T23:00:00.000Z" }],
+      "https://tongdaan.example",
+      new Date("2026-10-03T01:00:00Z"),
+    );
+    assert.match(beforeEight.text, /新頁：陳老師/);
+    const older = buildDigest(
+      [{ ...tutor, createdAt: "2026-10-01T00:00:00.000Z" }],
+      "https://tongdaan.example",
+      new Date("2026-10-03T02:00:00Z"),
+    );
+    assert.equal(older.quiet, true);
+    assert.equal(older.text, "無事。");
   });
 
   it("kills the idea after 21 days without 5 paying tutors", () => {

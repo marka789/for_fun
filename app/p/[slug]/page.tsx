@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { CopyButton } from "@/components/copy-button";
-import { formatDate, formatMoney, formatMonth, groupByParent, hongKongMonth, monthLessons, shiftMonth, unpaidTotal, validMonth } from "@/lib/bill";
+import { formatDate, formatMoney, formatMonth, groupByParent, hongKongMonth, hongKongToday, isLive, monthLessons, shiftMonth, unpaidTotal, validMonth } from "@/lib/bill";
 import { readStudio } from "@/lib/store";
 import { headers } from "next/headers";
 
@@ -25,6 +25,14 @@ export default async function ParentPage({
   const query = await searchParams;
   const tutor = readStudio().tutors.find((item) => item.slug === slug);
   if (!tutor) notFound();
+  if (!isLive(tutor, hongKongToday())) {
+    return (
+      <main className="card">
+        <h1>{tutor.name}</h1>
+        <p>這條連結未開。</p>
+      </main>
+    );
+  }
 
   const month = query.month && validMonth(query.month) ? query.month : hongKongMonth();
   const lessons = monthLessons(tutor, month);

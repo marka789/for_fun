@@ -1,4 +1,4 @@
-import { addLesson, createTutor, deleteLesson, login, logout, togglePaid } from "@/lib/actions";
+import { addLesson, createTutor, deleteLesson, login, logout, renewTutor, togglePaid } from "@/lib/actions";
 import { canManage, passwordRequired } from "@/lib/auth";
 import { formatDate, formatMoney, hongKongToday, unpaidTotal } from "@/lib/bill";
 import { readStudio } from "@/lib/store";
@@ -59,7 +59,16 @@ export default async function StudioPage({
           </div>
           {selected ? (
             <>
-              <p className="kicker">{selected.name} · {selected.plan === "paid" ? `已收至 ${selected.paidUntil}` : "示範"}</p>
+              <p className="kicker">
+                {selected.name} · {selected.plan === "paid" ? `已收至 ${selected.paidUntil}` : selected.plan === "trial" ? `試用至 ${selected.paidUntil}` : "示範"}
+              </p>
+              {selected.plan === "trial" ? (
+                <form action={renewTutor}>
+                  <input type="hidden" name="slug" value={selected.slug} />
+                  <button className="button button-small" type="submit">收咗一年</button>
+                </form>
+              ) : null}
+              {selected.editKey ? <p className="fine">鑰匙 {selected.editKey}</p> : null}
               <p>未付 {formatMoney(unpaidTotal(selected.lessons))} · <a href={`/p/${selected.slug}`}>家長頁</a></p>
               <form className="lesson-form" action={addLesson}>
                 <input type="hidden" name="slug" value={selected.slug} />

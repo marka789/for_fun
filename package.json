@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "tsx scripts/serve.ts",
     "month": "tsx scripts/month.ts",
     "sales": "tsx scripts/sales-check.ts",
+    "morning": "tsx scripts/morning.ts",
     "test": "tsx --test lib/bill.test.ts"
   },
   "dependencies": {

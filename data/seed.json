@@ -8,6 +8,8 @@
       "phone": "90000001",
       "plan": "demo",
       "paidUntil": null,
+      "editKey": null,
+      "createdAt": null,
       "lessons": [
         {
           "id": "seed-1",

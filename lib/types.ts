@@ -16,8 +16,10 @@ export type Tutor = {
   subject: string;
   fpsId: string;
   phone: string;
-  plan: "demo" | "paid";
+  plan: "demo" | "trial" | "paid";
   paidUntil: string | null;
+  editKey: string | null;
+  createdAt: string | null;
   lessons: Lesson[];
 };
 

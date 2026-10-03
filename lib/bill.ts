@@ -1,6 +1,7 @@
 import type { Lead, Lesson, Outbox, OutboxItem, ParentBill, SalesReport, Tutor } from "./types";
 
 export const PRICE_HKD = 480;
+export const TRIAL_DAYS = 14;
 export const KILL_DAYS = 21;
 export const KILL_SALES = 5;
 export const LAUNCH_DATE = "2026-10-03";
@@ -104,10 +105,25 @@ export function whatsappLink(phone: string, message: string): string | null {
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
+export function addDays(iso: string, days: number): string {
+  const [year, month, day] = iso.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day + days));
+  const y = date.getUTCFullYear();
+  const m = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const d = String(date.getUTCDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
+export function isLive(tutor: Tutor, today = hongKongToday()): boolean {
+  if (tutor.plan === "demo") return true;
+  return Boolean(tutor.paidUntil && tutor.paidUntil >= today);
+}
+
 export function buildOutbox(tutors: Tutor[], month: string, origin: string, now = new Date()): Outbox {
+  const today = hongKongToday(now);
   const items: OutboxItem[] = [];
   for (const tutor of tutors) {
-    if (tutor.plan === "demo") continue;
+    if (!isLive(tutor, today) || tutor.plan === "demo") continue;
     const pageUrl = `${origin}/p/${tutor.slug}?month=${month}`;
     for (const bill of groupByParent(monthLessons(tutor, month))) {
       if (bill.unpaid <= 0) continue;
@@ -141,10 +157,9 @@ export function salesPost(origin: string): string {
     "一條連結俾家長：今個月上咗幾多堂、未付幾多、轉數快號碼。",
     "家長直接 FPS 俾你，錢唔經我。",
     "",
-    "一年 HK$480。",
+    "一年 HK$480。而家開頁，先用 14 日。",
     `示範：${origin}/p/miss-chan`,
-    "",
-    "想用就留低 WhatsApp。",
+    `開頁：${origin}`,
   ].join("\n");
 }
 
@@ -203,4 +218,26 @@ export function validDate(value: string): boolean {
 
 export function validMonth(value: string): boolean {
   return /^\d{4}-(0[1-9]|1[0-2])$/.test(value);
+}
+
+export function buildDigest(tutors: Tutor[], origin: string, now = new Date()): { quiet: boolean; text: string } {
+  const today = hongKongToday(now);
+  const lines: string[] = [];
+  const cutoff = now.getTime() - 24 * 60 * 60 * 1000;
+  for (const tutor of tutors) {
+    if (tutor.plan === "demo" || !tutor.createdAt) continue;
+    const created = Date.parse(tutor.createdAt);
+    if (Number.isNaN(created) || created <= cutoff || created > now.getTime()) continue;
+    lines.push(`新頁：${tutor.name} ${tutor.phone}。家長 ${origin}/p/${tutor.slug}`);
+  }
+  for (const tutor of tutors) {
+    if (tutor.plan !== "trial" || !tutor.paidUntil || tutor.paidUntil < today) continue;
+    const left = daysBetween(today, tutor.paidUntil);
+    if (left > 3) continue;
+    lines.push(`就到期：${tutor.name} ${tutor.phone}，到 ${tutor.paidUntil}。收 HK$480 後喺後台續一年。`);
+  }
+  const report = buildSalesReport(tutors, [], origin, LAUNCH_DATE, now);
+  if (report.kill) lines.push(report.reason);
+  if (lines.length === 0) return { quiet: true, text: "無事。" };
+  return { quiet: false, text: lines.join("\n") };
 }

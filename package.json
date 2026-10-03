@@ -1,0 +1,26 @@
+{
+  "name": "tongdaan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "tsx scripts/serve.ts",
+    "month": "tsx scripts/month.ts",
+    "sales": "tsx scripts/sales-check.ts",
+    "morning": "tsx scripts/morning.ts",
+    "test": "tsx --test lib/bill.test.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

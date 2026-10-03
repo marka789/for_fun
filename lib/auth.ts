@@ -1,5 +1,5 @@
 import { createHmac, timingSafeEqual } from "crypto";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 
 const cookieName = "studio_session";
 
@@ -33,12 +33,14 @@ export async function canManage(): Promise<boolean> {
 export async function signIn(password: string) {
   const expected = process.env.ADMIN_PASSWORD;
   if (!expected || password !== expected) return false;
+  const headerList = await headers();
+  const proto = headerList.get("x-forwarded-proto") ?? "http";
   const jar = await cookies();
   jar.set(cookieName, signature(expected), {
     httpOnly: true,
     sameSite: "lax",
     path: "/",
-    secure: process.env.NODE_ENV === "production",
+    secure: proto === "https",
   });
   return true;
 }
